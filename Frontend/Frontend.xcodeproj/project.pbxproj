@@ -29,6 +29,7 @@
 		9FAFC60B2C367837007C59E3 /* KakaoSDKTemplate in Frameworks */ = {isa = PBXBuildFile; productRef = 9FAFC60A2C367837007C59E3 /* KakaoSDKTemplate */; };
 		9FAFC60D2C367837007C59E3 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 9FAFC60C2C367837007C59E3 /* KakaoSDKUser */; };
 		9FAFC6102C367B4D007C59E3 /* MyAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAFC60F2C367B4D007C59E3 /* MyAppDelegate.swift */; };
+		9FE76C6C2C36853800B26714 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE76C6B2C36853800B26714 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		9FAFC5F32C367703007C59E3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		9FAFC60E2C367943007C59E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9FAFC60F2C367B4D007C59E3 /* MyAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppDelegate.swift; sourceTree = "<group>"; };
+		9FE76C6B2C36853800B26714 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				9FAFC5E22C367303007C59E3 /* FrontendApp.swift */,
 				9FAFC5E42C367303007C59E3 /* ContentView.swift */,
 				9FAFC5F32C367703007C59E3 /* LoginView.swift */,
+				9FE76C6B2C36853800B26714 /* MainView.swift */,
 				9FAFC60F2C367B4D007C59E3 /* MyAppDelegate.swift */,
 				9FAFC5E62C367304007C59E3 /* Assets.xcassets */,
 				9FAFC5E82C367304007C59E3 /* Preview Content */,
@@ -200,7 +203,11 @@
 			files = (
 				374929402C36909A00F18931 /* Geofencing.swift in Sources */,
 				9FAFC5E52C367303007C59E3 /* ContentView.swift in Sources */,
+         Feat/Geofencing
 				374929442C36938700F18931 /* WriteContentView.swift in Sources */,
+
+				9FE76C6C2C36853800B26714 /* MainView.swift in Sources */,
+         main
 				9FAFC5E32C367303007C59E3 /* FrontendApp.swift in Sources */,
 				374929422C36923800F18931 /* GeoContent.swift in Sources */,
 				9FAFC6102C367B4D007C59E3 /* MyAppDelegate.swift in Sources */,
