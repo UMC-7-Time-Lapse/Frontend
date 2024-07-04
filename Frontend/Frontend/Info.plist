@@ -18,5 +18,15 @@
 		<string>kakaokompassauth</string>
 		<string>kakaolink</string>
 	</array>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photo library to select photos and videos for the time capsule.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>We need your location to save the time capsule at your current location.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We need your location to save the time capsule at your current location.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>location</string>
+    </array>
 </dict>
 </plist>
