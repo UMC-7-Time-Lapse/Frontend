@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		374929402C36909A00F18931 /* Geofencing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3749293F2C36909A00F18931 /* Geofencing.swift */; };
+		374929422C36923800F18931 /* GeoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374929412C36923800F18931 /* GeoContent.swift */; };
+		374929442C36938700F18931 /* WriteContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374929432C36938700F18931 /* WriteContentView.swift */; };
 		9FAFC5E32C367303007C59E3 /* FrontendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAFC5E22C367303007C59E3 /* FrontendApp.swift */; };
 		9FAFC5E52C367303007C59E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAFC5E42C367303007C59E3 /* ContentView.swift */; };
 		9FAFC5E72C367304007C59E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFC5E62C367304007C59E3 /* Assets.xcassets */; };
@@ -30,6 +33,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3749293F2C36909A00F18931 /* Geofencing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geofencing.swift; sourceTree = "<group>"; };
+		374929412C36923800F18931 /* GeoContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoContent.swift; sourceTree = "<group>"; };
+		374929432C36938700F18931 /* WriteContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteContentView.swift; sourceTree = "<group>"; };
 		9FAFC5DF2C367303007C59E3 /* Frontend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frontend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FAFC5E22C367303007C59E3 /* FrontendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontendApp.swift; sourceTree = "<group>"; };
 		9FAFC5E42C367303007C59E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +99,9 @@
 				9FAFC60F2C367B4D007C59E3 /* MyAppDelegate.swift */,
 				9FAFC5E62C367304007C59E3 /* Assets.xcassets */,
 				9FAFC5E82C367304007C59E3 /* Preview Content */,
+				3749293F2C36909A00F18931 /* Geofencing.swift */,
+				374929412C36923800F18931 /* GeoContent.swift */,
+				374929432C36938700F18931 /* WriteContentView.swift */,
 			);
 			path = Frontend;
 			sourceTree = "<group>";
@@ -192,9 +201,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				374929402C36909A00F18931 /* Geofencing.swift in Sources */,
 				9FAFC5E52C367303007C59E3 /* ContentView.swift in Sources */,
+         Feat/Geofencing
+				374929442C36938700F18931 /* WriteContentView.swift in Sources */,
+
 				9FE76C6C2C36853800B26714 /* MainView.swift in Sources */,
+         main
 				9FAFC5E32C367303007C59E3 /* FrontendApp.swift in Sources */,
+				374929422C36923800F18931 /* GeoContent.swift in Sources */,
 				9FAFC6102C367B4D007C59E3 /* MyAppDelegate.swift in Sources */,
 				9FAFC5F42C367703007C59E3 /* LoginView.swift in Sources */,
 				9FAFC5F22C367585007C59E3 /* ColorExtentsion.swift in Sources */,
